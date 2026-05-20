@@ -1,0 +1,187 @@
+/* ==========================================================================
+   Custom theme — Mostafa Othman academic site
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, $background-color 0%, #ffffff 12rem);
+}
+
+/* Masthead */
+.masthead {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid $border-color;
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.04);
+
+  &__inner-wrap {
+    padding-top: 0.85em;
+    padding-bottom: 0.85em;
+  }
+}
+
+.masthead__menu-item--lg a {
+  font-family: $header-font-family;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: $darker-gray !important;
+
+  &:hover {
+    color: $primary-color !important;
+  }
+}
+
+.greedy-nav a {
+  font-weight: 500;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
+
+  &:hover,
+  &.active {
+    color: $primary-color;
+  }
+}
+
+/* Main content */
+.page__content {
+  h1 {
+    font-size: $type-size-2;
+    color: $darker-gray;
+    letter-spacing: -0.03em;
+    padding-bottom: 0.35em;
+    border-bottom: 2px solid mix($info-color, $border-color, 35%);
+  }
+
+  h2 {
+    font-size: $type-size-3;
+    color: $dark-gray;
+    margin-top: 2.25em;
+    padding-top: 0.25em;
+    letter-spacing: -0.02em;
+  }
+
+  h3 {
+    color: mix($dark-gray, $primary-color, 85%);
+  }
+
+  a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, $border-color, transparent);
+    margin: 2.5em 0;
+  }
+
+  table {
+    border-radius: $border-radius;
+    overflow: hidden;
+    box-shadow: $box-shadow;
+    border: 1px solid $border-color;
+
+    th {
+      background: $lighter-gray;
+      color: $darker-gray;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) td {
+      background: rgba(241, 245, 249, 0.5);
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid $info-color;
+    background: rgba(13, 148, 136, 0.06);
+    border-radius: 0 $border-radius $border-radius 0;
+    padding: 0.75em 1.25em;
+    color: $dark-gray;
+  }
+}
+
+/* Sidebar author card */
+.sidebar {
+  .author__avatar img {
+    border-radius: 50%;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+    border: 3px solid #fff;
+  }
+
+  .author__name {
+    font-family: $header-font-family;
+    font-weight: 600;
+    color: $darker-gray;
+    letter-spacing: -0.02em;
+  }
+
+  .author__bio {
+    color: $text-color;
+    line-height: 1.55;
+  }
+
+  .author__urls-wrapper {
+    border-top: 1px solid $border-color;
+    padding-top: 0.75em;
+    margin-top: 0.5em;
+  }
+
+  .author__urls a {
+    color: $text-color;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+/* Archive cards (publications, portfolio) */
+.archive__item {
+  padding: 1em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .archive__item-title a {
+    color: $darker-gray;
+    font-family: $header-font-family;
+    font-weight: 600;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .archive__item-excerpt {
+    color: $text-color;
+  }
+}
+
+/* Footer */
+.page__footer {
+  background: $lighter-gray;
+  border-top: 1px solid $border-color;
+  color: mix($text-color, $gray, 70%);
+}
+
+/* CV iframe */
+.page__content iframe {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+/* Focus visibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid $info-color;
+  outline-offset: 2px;
+}

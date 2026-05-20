@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications"
-excerpt: " my publications during my graduate year"
+excerpt: "Peer-reviewed and conference publications."
 permalink: /publications/
 author_profile: true
 ---

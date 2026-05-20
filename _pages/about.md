@@ -1,26 +1,72 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Robotics field engineer and researcher — physical AI, manipulation, and teleoperation."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
- I am Mostafa Osama Ahmed Metwally Othman, a dedicated and results-oriented Robotics professional actively seeking opportunities in the field. With a Master's degree in Robotics and Computer Vision from Innopolis University, Russia, and a Bachelor's degree in Mechatronics Engineering from Nile University, Egypt, I bring a wealth of knowledge and expertise to contribute to cutting-edge projects within the robotics industry.
+I'm **Mostafa Othman** — a robotics engineer based in **Tokyo**. I work on **physical AI in production**: commissioning autonomous systems, validating releases before they reach the road, and closing the gap between research prototypes and reliable field behavior.
 
-Throughout my academic journey and practical experiences, I have developed a strong passion for Robotics, Teleoperation, Virtual Reality, Computer Vision, Control, Machine Learning,  Haptics, and Human-Robot Interaction. My research and project work have focused on teleoperation and control of robotic systems, where I have consistently delivered innovative solutions for complex tasks.
+For a **career-focused portfolio** (deployments, metrics, and industry work), see **[mostafa-metwaly.netlify.app](https://mostafa-metwaly.netlify.app/)**. This site is for **research, publications, and academic projects**.
 
-One of my notable achievements includes my Master's thesis project, where I explored haptic control and force feedback to teleoperate a Kuka IIWA robot, successfully executing precise Peg-In-Hole tasks using different control modes. Additionally, I gained hands-on experience in teleoperating a cable-driven robot via a Touch Haptic device, demonstrating my ability to integrate cutting-edge technologies into practical applications.
+---
 
-My technical skill set includes proficiency in Unity3D, MATLAB, SOLIDWORKS, Arduino, ROS, Python, C++, and Git, enabling me to effectively implement state-of-the-art solutions. I am adept at leveraging machine learning techniques, applying computer vision algorithms, and optimizing control systems for enhanced robotic performance.
+## Current work
 
-Beyond technical prowess, I possess exceptional organizational and leadership skills. As the former Chairman of the Robotronics student club, I successfully led a team and managed multiple projects, fostering a collaborative environment and driving impactful results. Furthermore, I have served as an instructor and coach, mentoring teams in various robotics competitions, showcasing my ability to inspire and guide others towards success.
+**Robotics Field Engineer — [Wayve Technologies](https://wayve.ai/)** · Tokyo · Nov 2025 – present
 
-In my quest for continuous growth and professional development, I stay updated with the latest technological trends and industry advancements. I am eager to contribute my skills and knowledge to progressive projects, working alongside talented individuals in the robotics industry.
+I commission autonomous vehicles end to end, act as a quality gate for OS and model releases across the AV stack, and debug safety-critical integration issues (CAN/DBW, ECUs, sensors). Before Wayve, I spent nearly three years at **[Rapyuta Robotics](https://www.rapyuta-robotics.com/)** deploying and sustaining AMR and autonomous forklift fleets across production sites in Japan.
 
-If you are a recruiter or an engineer from a robotics company seeking a dedicated professional with a strong background in Robotics and Computer Vision, I invite you to explore my portfolio to gain deeper insights into my projects and achievements. I am open to exciting career opportunities and collaboration ventures, and I welcome any inquiries or further information you may require. [projects](https://mostafa-metwaly.github.io/portfolio/).
+More detail on industry roles → [Experience](/experience/)
 
-Thank you for taking the time to visit my portfolio, and I look forward to connecting with you soon!
+---
 
+## Research background
+
+**M.Sc., Robotics and Computer Vision** — [Innopolis University](https://innopolis.university/en/) (2020–2022)  
+**B.Sc., Mechatronics Engineering** — [Nile University](https://www.nu.edu.eg/) (2017–2020)
+
+My graduate and undergraduate work centered on **robot manipulation under uncertainty**: teleoperation, haptic force feedback, computer vision for detection, and hybrid position/force control for assembly in tight clearances. I remain interested in how those research tools translate to **safe, observable production systems** at scale.
+
+Full research framing → [Research](/research/)
+
+---
+
+## Selected work
+
+| | |
+|:---|:---|
+| **Publication** | [Robotic Pick and Assembly Using Deep Learning and Hybrid Vision/Force Control](/publication/2021-08-26-robotic-pick-and-assembly/) — IEEE NIR 2021 |
+| **Master's thesis** | [Peg-in-hole assembly with four control modes](/portfolio/) — KUKA iiwa, haptics, shared autonomy, learning from demonstration |
+| **Bachelor's thesis** | [VR teleoperation in hostile environments](/portfolio/) — 1st place IoT & AI Egypt Challenge; top 5 worldwide Dell EMC Envision the Future |
+| **Demo** | [Thesis video (YouTube)](https://www.youtube.com/watch?v=vaFsLzGQ1M8) |
+
+---
+
+## Education
+
+- **M.Sc.** Robotics and Computer Vision — Innopolis University, Russia (2022)
+- **B.Sc.** Mechatronics Engineering — Nile University, Egypt (2020)
+
+---
+
+## Honors & awards
+
+- **1st place** — Builders Weekend Tokyo AI Hackathon (Solana × AI agents), 2025
+- **1st place** — IoT & AI Egypt Challenge (graduation project), 2020
+- **Top 5 worldwide** — Dell EMC Envision the Future, 2020
+- **1st place Egypt** — Robot Challenge AIR RACE, 2016
+
+---
+
+## Get in touch
+
+- **Email:** [mostafametwaly96@gmail.com](mailto:mostafametwaly96@gmail.com)
+- **LinkedIn:** [linkedin.com/in/mostafao](https://www.linkedin.com/in/mostafao/)
+- **GitHub:** [github.com/mostafa-metwaly](https://github.com/mostafa-metwaly)
+- **Google Scholar:** [scholar profile](https://scholar.google.com/citations?user=VDBr2VUAAAAJ&hl=en)
+
+Download **[CV (PDF)](/cv/)** · Browse **[projects](/portfolio/)** · **[publications](/publications/)**

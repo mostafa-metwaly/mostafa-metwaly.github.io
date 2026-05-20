@@ -2,6 +2,8 @@
 title: "Tele-Operated VR control of a Self-Aware robot in a hostile environment"
 excerpt: " Bachelor Graduation Project <br/><img src='https://img.youtube.com/vi/oxwMDySRGDk/maxresdefault.jpg'> "
 collection: portfolio
+categories:
+  - bachelor
 ---
 This project was a transformative experience that deepened my understanding of both the theoretical and practical aspects of robotics. From a technical perspective, I gained hands-on expertise in robot kinematics , particularly in implementing forward and inverse kinematics algorithms for a 7-DOF robotic arm — a challenging configuration due to its redundancy and complex joint-space dynamics.
 

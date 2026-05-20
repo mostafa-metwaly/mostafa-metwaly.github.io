@@ -1,15 +1,15 @@
 ---
 layout: archive
-title: "My Projects"
+title: "Projects"
 permalink: /portfolio/
-display_categories: [Master , bachelor]
 author_profile: true
 ---
 
 {% include base_path %}
 
+Graduate and undergraduate robotics projects — thesis work, lab projects, and demos. For industry deployments and field engineering, see the **[career portfolio](https://mostafa-metwaly.netlify.app/)**.
 
-{% for post in site.portfolio %}
+{% for post in site.portfolio reversed %}
   {% include archive-single.html %}
 {% endfor %}
  
