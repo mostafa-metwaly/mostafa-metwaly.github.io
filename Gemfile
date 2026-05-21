@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# macOS system Ruby (2.6) is too old — use Ruby 3.2+ (see README "Local preview").
+ruby ">= 3.2.0", "< 4.1"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:

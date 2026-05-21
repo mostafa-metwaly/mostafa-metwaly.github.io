@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mostafa Othman"
 title_separator          : "-"
 name                     : &name "Mostafa Metwaly Othman"
-description              : &description "Robotics field engineer and researcher — publications, thesis work, and projects."
+description              : &description "Academic portfolio — robotics research, publications, and thesis projects."
 url                      : https://mostafa-metwaly.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mostafa-metwaly.github.io"
@@ -82,14 +82,14 @@ analytics:
 author:
   name             : "Mostafa Othman"
   avatar           : "Picsart_22-02-17_22-19-07-635.jpg"
-  bio              : "Robotics Field Engineer @ Wayve"
+  bio              : "Robotics researcher · manipulation & teleoperation"
   location         : "Tokyo, Japan"
-  employer         : "Wayve Technologies"
+  employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=VDBr2VUAAAAJ&hl=en"
   email            :  mostafametwaly96@gmail.com
   researchgate     :  https://www.researchgate.net/profile/Mostafa-Metwaly
-  uri              : "https://mostafa-metwaly.netlify.app/"
+  uri              :
   youtube          : "mostafaman9/featured"
   bitbucket        :
   codepen          :

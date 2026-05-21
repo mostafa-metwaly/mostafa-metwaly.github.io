@@ -3,17 +3,51 @@
 GitHub Pages site (Jekyll / Minimal Mistakes) for **research, publications, and thesis projects**.
 
 - **Live:** https://mostafa-metwaly.github.io/
-- **Career portfolio:** https://mostafa-metwaly.netlify.app/
+- **Career portfolio (separate site):** https://mostafa-metwaly.netlify.app/ — not linked from this academic site
 
 ## Local preview
 
+**Requires Ruby 3.2+** (not macOS `/usr/bin/ruby` 2.6).
+
+### One-time setup (recommended: rbenv)
+
+```bash
+# Fix Homebrew permissions if brew install fails (one-time)
+sudo chown -R "$(whoami)" /opt/homebrew
+
+brew install rbenv ruby-build
+rbenv install 3.3.7   # matches .ruby-version
+rbenv global 3.3.7    # or: rbenv local 3.3.7 inside this repo
+
+# Add to ~/.zshrc if not already there:
+# eval "$(rbenv init - zsh)"
+
+gem install bundler
+```
+
+### Run the site
+
 ```bash
 cd sites/mostafa-metwaly.github.io
+ruby -v    # should show 3.3.x, not 2.6.10
 bundle install
 bundle exec jekyll serve
 ```
 
 Open http://localhost:4000
+
+### Alternative: Homebrew Ruby only
+
+```bash
+brew install ruby
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+ruby -v
+```
+
+### If you only want to deploy (no local build)
+
+Push to `master` on GitHub — **GitHub Pages builds with its own Ruby**; you do not need `bundle install` locally to publish.
 
 ## What to edit
 

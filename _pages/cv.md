@@ -19,33 +19,31 @@ redirect_from:
 
 ## [Download CV (PDF)](https://mostafa-metwaly.github.io/files/MostafaOthman_CV.pdf)
 
-*Upload the latest PDF to `files/MostafaOthman_CV.pdf` when you export from Overleaf.*
-
 ### Education
 
-* **M.Sc.** Robotics and Computer Vision — Innopolis University, 2022
-* **B.Sc.** Mechatronics Engineering — Nile University, 2020
+* **M.Sc.** Robotics and Computer Vision — Innopolis University, Russia, 2022 (GPA 4.5/5)
+* **B.Sc.** Mechatronics Engineering — Nile University, Egypt, 2020 (Highest Honors, 3.71/4)
 
-### Work experience
+### Research experience
 
-* **Robotics Field Engineer** — Wayve Technologies, Tokyo, Japan (Nov 2025 – present)
-  * Commission autonomous vehicles; validate OS and model releases; debug CAN/DBW and ECU integration; on-road safety and incident response
+* **Research Assistant** — Innopolis University, Intelligent Robotic Systems Lab (Summer 2021)
+  * Teleoperation of a 10×7 m cable-driven robot via Touch haptic device; websocket master–slave, Omron PLC, Go kinematics (Prof. Igor Gapanov)
 
-* **Robotics Field Engineer** — Rapyuta Robotics, Tokyo, Japan (Dec 2022 – Oct 2025)
-  * Deployed and supported AMR and autonomous forklift fleets across 8 production sites
-  * Automation and simulation for pre-deployment testing; on-robot LTE architecture for remote support
+* **Graduate research** — Innopolis University (2020–2022)
+  * Master's thesis: peg-in-hole assembly on KUKA LBR iiwa — four control modes, computer vision, haptics, user studies ([defence presentation PDF](/files/mostafa-othman-master-thesis-defense-2022.pdf))
+  * Lab projects: bilateral teleoperation, VR teleoperation, impedance-based peg-in-hole
 
-* **Research Assistant** — Innopolis University (Summer 2021)
-  * Teleoperation of cable-driven robot with Touch haptic device (Prof. Igor Gapanov)
-
-### Skills
-
-* **Robotics:** ROS, computer vision, motion planning, control systems, state estimation, teleoperation, haptics
-* **Languages:** Python, C++, C#, MATLAB, Go
-* **Tools:** Linux, Docker, Git, Unity, Grafana, Foxglove, Simulink, SOLIDWORKS
+* **Undergraduate thesis** — Nile University (2019–2020)
+  * Custom 7-DOF manipulator (team-designed and manufactured); VR teleoperation with ROS and Unity
 
 ### Publications
 
 <ul>{% for post in site.publications %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
+
+### Technical skills (research)
+
+* **Robotics:** ROS, computer vision, motion planning, control systems, teleoperation, haptics, state estimation
+* **Programming:** Python, C++, C#, MATLAB, Go
+* **Tools:** Linux, Git, Unity, Simulink, SOLIDWORKS
