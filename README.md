@@ -58,7 +58,7 @@ Push to `master` on GitHub — **GitHub Pages builds with its own Ruby**; you do
 | Industry experience (short) | `_pages/experience.md` |
 | Publications | `_publications/*.md` |
 | Projects | `_portfolio/*` |
-| CV embed + text summary | `_pages/cv.md` + `files/MostafaOthman_CV.pdf` |
+| CV embed + text summary | `_pages/cv.md` + `files/mostafa-othman-cv-2026.pdf` |
 | Site title, bio, social links | `_config.yml` |
 | Navigation | `_data/navigation.yml` |
 

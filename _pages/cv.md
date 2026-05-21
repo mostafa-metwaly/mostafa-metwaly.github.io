@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <iframe
-    src="https://mostafa-metwaly.github.io/files/MostafaOthman_CV.pdf"
+    src="https://mostafa-metwaly.github.io/files/mostafa-othman-cv-2026.pdf"
     frameBorder="0"
     scrolling="auto"
     height="950"
@@ -17,7 +17,7 @@ redirect_from:
 
 {% include base_path %}
 
-## [Download CV (PDF)](https://mostafa-metwaly.github.io/files/MostafaOthman_CV.pdf)
+## [Download CV (PDF)](https://mostafa-metwaly.github.io/files/mostafa-othman-cv-2026.pdf)
 
 ### Education
 
