@@ -1,23 +1,46 @@
 ---
-title: "Tele-Operated VR control of a Self-Aware robot in a hostile environment"
-excerpt: " Bachelor Graduation Project <br/><img src='https://img.youtube.com/vi/oxwMDySRGDk/maxresdefault.jpg'> "
+title: "Bachelor's thesis — VR teleoperation in hazardous environments"
+excerpt: "Nile University · custom 7-DOF arm (designed and built in-house); VR and ROS teleoperation; 1st IoT & AI Egypt."
 collection: portfolio
 categories:
   - bachelor
+date: 2020-07-01
+header:
+  teaser: https://img.youtube.com/vi/oxwMDySRGDk/hqdefault.jpg
+permalink: /portfolio/portfolio-1/
 ---
-This project was a transformative experience that deepened my understanding of both the theoretical and practical aspects of robotics. From a technical perspective, I gained hands-on expertise in robot kinematics , particularly in implementing forward and inverse kinematics algorithms for a 7-DOF robotic arm — a challenging configuration due to its redundancy and complex joint-space dynamics.
 
-I became proficient in using ROS (Robot Operating System) as the central communication framework, enabling real-time data exchange between the virtual interface and the physical robot. This involved developing custom nodes for sensor feedback, motor control, and trajectory execution, which gave me a strong foundation in robot middleware and system integration .
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/oxwMDySRGDk" title="Bachelor thesis VR teleoperation demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-Working with Unity 3D for VR simulation allowed me to explore the intersection of robotics and immersive technologies. I learned how to create interactive environments, simulate robotic behavior, and synchronize virtual models with real-world hardware — skills that are increasingly valuable in fields like remote operations, digital twins, and human-in-the-loop automation.
+## Context
 
-One of the most rewarding challenges was designing the user interface and interaction model within the VR environment. It required a balance between intuitive design and technical accuracy, ensuring that operators could control the robot effectively while receiving meaningful visual and haptic feedback.
+Bachelor's graduation project, Nile University (Oct 2019 – Jul 2020). Team capstone simulating remote operation where a human cannot enter the workspace.
 
-From a team collaboration standpoint, this project strengthened my ability to work in a multidisciplinary environment. We had to manage timelines, delegate responsibilities, and integrate diverse components — from mechanical design and embedded systems to software development and user experience. These experiences improved my communication, problem-solving, and project management skills.
+## Problem
 
-Finally, presenting the project at national and international competitions helped me refine my ability to articulate technical content clearly and confidently to both experts and general audiences — a skill that continues to serve me well in professional settings.
+Remotely operate a **custom 7-DOF manipulator** (designed and manufactured by our team) with intuitive spatial interfaces and a digital twin of the real cell.
 
-Overall, this thesis project not only expanded my technical toolkit but also reinforced my passion for human-robot interaction , remote robotic systems , and the future of immersive control interfaces in industrial and hazardous environments.
+## Approach
 
+- Mechanical design and fabrication of the 7-DOF arm
+- Forward and inverse kinematics for the redundant arm (MATLAB/Simulink)
+- ROS middleware for real-time simulation–hardware exchange
+- Unity3D VR environment for operator interaction
+- Custom nodes for sensing, motor commands, and trajectory execution
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oxwMDySRGDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Outcome
+
+- **1st place** — IoT & AI Egypt Challenge (2020); presented at IEEE GCAIoT
+- **Top 5 worldwide** — Dell EMC Envision the Future (2020)
+- End-to-end digital-twin teleoperation linking virtual and physical workspaces
+
+## Stack
+
+MATLAB · Simulink · ROS · Unity · C# · Control theory · VR
+
+## Links
+
+- [Demo (YouTube)](https://www.youtube.com/watch?v=oxwMDySRGDk)
+- [GitHub](https://github.com/mostafa-metwaly/Design-and-Controlling-a-VR-system-for-Teleoperation-of-6DOF-Robotic-manipulator)

@@ -1,0 +1,41 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% assign teaser = post.header.teaser %}
+{% else %}
+  {% assign teaser = site.teaser | prepend: "/images/" | prepend: base_path %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% if teaser contains "://" %}
+  {% assign teaser_src = teaser %}
+{% else %}
+  {% assign teaser_src = teaser | prepend: "/images/" | prepend: base_path %}
+{% endif %}
+
+<article class="portfolio-card" itemscope itemtype="http://schema.org/CreativeWork">
+  <a class="portfolio-card__media" href="{{ base_path }}{{ post.url }}" rel="permalink" aria-label="{{ title | strip_html | escape }}">
+    <img
+      src="{{ teaser_src }}"
+      alt="{{ title | strip_html | escape }}"
+      loading="lazy"
+      decoding="async"
+      width="640"
+      height="360" />
+  </a>
+
+  <div class="portfolio-card__body">
+    <h2 class="portfolio-card__title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+
+    {% if post.excerpt %}
+      <p class="portfolio-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>
+    {% endif %}
+  </div>
+</article>

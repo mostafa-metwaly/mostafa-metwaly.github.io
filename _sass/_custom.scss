@@ -179,6 +179,166 @@ body {
   box-shadow: $box-shadow;
 }
 
+/* Portfolio project pages */
+.page__content {
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.65rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid $border-color;
+    font-size: $type-size-4;
+    color: $primary-color;
+  }
+
+  h2:first-of-type {
+    margin-top: 1rem;
+  }
+
+  h2 + p,
+  h2 + ul {
+    margin-top: 0.5rem;
+  }
+
+  ul {
+    margin-bottom: 1.25rem;
+  }
+}
+
+.project-downloads {
+  margin: 0 0 2rem;
+
+  .btn {
+    margin-right: 0.5em;
+  }
+}
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 0 2rem;
+  aspect-ratio: 16 / 9;
+
+  &:first-child {
+    margin-top: 0.25rem;
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+  }
+}
+
+/* Portfolio index — responsive card grid (replaces theme float grid) */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+  margin: 0 0 2.75rem;
+  clear: both;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  @include breakpoint($large) {
+    gap: 2.25rem;
+  }
+}
+
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    border-color: mix($info-color, $border-color, 40%);
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1);
+
+    .portfolio-card__media img {
+      transform: scale(1.02);
+    }
+  }
+
+  &__media {
+    display: block;
+    flex: 0 0 auto;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: mix($background-color, $border-color, 70%);
+    text-decoration: none;
+    line-height: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      transition: transform 0.25s ease;
+    }
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem 1.25rem 1.25rem;
+  }
+
+  &__title {
+    margin: 0 0 0.5rem;
+    padding: 0;
+    border: 0;
+    font-size: $type-size-4;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+
+    a {
+      color: $darker-gray;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary-color;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__excerpt {
+    margin: 0;
+    font-size: $type-size-6;
+    line-height: 1.5;
+    color: mix($text-color, $gray, 82%);
+  }
+}
+
+.page__content .portfolio-card__title {
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom: 0;
+}
+
+/* Archive list excerpts — no raw HTML in cards */
+.archive__item-excerpt img {
+  display: none;
+}
+
 /* Focus visibility */
 a:focus-visible,
 button:focus-visible {
